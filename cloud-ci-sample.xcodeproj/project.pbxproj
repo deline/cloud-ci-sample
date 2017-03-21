@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		735C346A1E81260200810AE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C34691E81260200810AE8 /* AppDelegate.swift */; };
+		735C346C1E81260200810AE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C346B1E81260200810AE8 /* ViewController.swift */; };
+		735C346F1E81260200810AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735C346D1E81260200810AE8 /* Main.storyboard */; };
+		735C34711E81260200810AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 735C34701E81260200810AE8 /* Assets.xcassets */; };
+		735C34741E81260200810AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735C34721E81260200810AE8 /* LaunchScreen.storyboard */; };
+		735C347F1E81260200810AE8 /* cloud_ci_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C347E1E81260200810AE8 /* cloud_ci_sampleTests.swift */; };
+		735C348A1E81260200810AE8 /* cloud_ci_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C34891E81260200810AE8 /* cloud_ci_sampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		735C347B1E81260200810AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 735C345E1E81260200810AE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 735C34651E81260200810AE8;
+			remoteInfo = "cloud-ci-sample";
+		};
+		735C34861E81260200810AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 735C345E1E81260200810AE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 735C34651E81260200810AE8;
+			remoteInfo = "cloud-ci-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		735C34661E81260200810AE8 /* cloud-ci-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cloud-ci-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		735C34691E81260200810AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		735C346B1E81260200810AE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		735C346E1E81260200810AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		735C34701E81260200810AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		735C34731E81260200810AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		735C34751E81260200810AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		735C347A1E81260200810AE8 /* cloud-ci-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cloud-ci-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		735C347E1E81260200810AE8 /* cloud_ci_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloud_ci_sampleTests.swift; sourceTree = "<group>"; };
+		735C34801E81260200810AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		735C34851E81260200810AE8 /* cloud-ci-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cloud-ci-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		735C34891E81260200810AE8 /* cloud_ci_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloud_ci_sampleUITests.swift; sourceTree = "<group>"; };
+		735C348B1E81260200810AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		735C34631E81260200810AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735C34771E81260200810AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735C34821E81260200810AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		735C345D1E81260200810AE8 = {
+			isa = PBXGroup;
+			children = (
+				735C34681E81260200810AE8 /* cloud-ci-sample */,
+				735C347D1E81260200810AE8 /* cloud-ci-sampleTests */,
+				735C34881E81260200810AE8 /* cloud-ci-sampleUITests */,
+				735C34671E81260200810AE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		735C34671E81260200810AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				735C34661E81260200810AE8 /* cloud-ci-sample.app */,
+				735C347A1E81260200810AE8 /* cloud-ci-sampleTests.xctest */,
+				735C34851E81260200810AE8 /* cloud-ci-sampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		735C34681E81260200810AE8 /* cloud-ci-sample */ = {
+			isa = PBXGroup;
+			children = (
+				735C34691E81260200810AE8 /* AppDelegate.swift */,
+				735C346B1E81260200810AE8 /* ViewController.swift */,
+				735C346D1E81260200810AE8 /* Main.storyboard */,
+				735C34701E81260200810AE8 /* Assets.xcassets */,
+				735C34721E81260200810AE8 /* LaunchScreen.storyboard */,
+				735C34751E81260200810AE8 /* Info.plist */,
+			);
+			path = "cloud-ci-sample";
+			sourceTree = "<group>";
+		};
+		735C347D1E81260200810AE8 /* cloud-ci-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				735C347E1E81260200810AE8 /* cloud_ci_sampleTests.swift */,
+				735C34801E81260200810AE8 /* Info.plist */,
+			);
+			path = "cloud-ci-sampleTests";
+			sourceTree = "<group>";
+		};
+		735C34881E81260200810AE8 /* cloud-ci-sampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				735C34891E81260200810AE8 /* cloud_ci_sampleUITests.swift */,
+				735C348B1E81260200810AE8 /* Info.plist */,
+			);
+			path = "cloud-ci-sampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		735C34651E81260200810AE8 /* cloud-ci-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735C348E1E81260200810AE8 /* Build configuration list for PBXNativeTarget "cloud-ci-sample" */;
+			buildPhases = (
+				735C34621E81260200810AE8 /* Sources */,
+				735C34631E81260200810AE8 /* Frameworks */,
+				735C34641E81260200810AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cloud-ci-sample";
+			productName = "cloud-ci-sample";
+			productReference = 735C34661E81260200810AE8 /* cloud-ci-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		735C34791E81260200810AE8 /* cloud-ci-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735C34911E81260200810AE8 /* Build configuration list for PBXNativeTarget "cloud-ci-sampleTests" */;
+			buildPhases = (
+				735C34761E81260200810AE8 /* Sources */,
+				735C34771E81260200810AE8 /* Frameworks */,
+				735C34781E81260200810AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				735C347C1E81260200810AE8 /* PBXTargetDependency */,
+			);
+			name = "cloud-ci-sampleTests";
+			productName = "cloud-ci-sampleTests";
+			productReference = 735C347A1E81260200810AE8 /* cloud-ci-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		735C34841E81260200810AE8 /* cloud-ci-sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735C34941E81260200810AE8 /* Build configuration list for PBXNativeTarget "cloud-ci-sampleUITests" */;
+			buildPhases = (
+				735C34811E81260200810AE8 /* Sources */,
+				735C34821E81260200810AE8 /* Frameworks */,
+				735C34831E81260200810AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				735C34871E81260200810AE8 /* PBXTargetDependency */,
+			);
+			name = "cloud-ci-sampleUITests";
+			productName = "cloud-ci-sampleUITests";
+			productReference = 735C34851E81260200810AE8 /* cloud-ci-sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		735C345E1E81260200810AE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Deline Neo";
+				TargetAttributes = {
+					735C34651E81260200810AE8 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SDPB4WRGP5;
+						ProvisioningStyle = Automatic;
+					};
+					735C34791E81260200810AE8 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SDPB4WRGP5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 735C34651E81260200810AE8;
+					};
+					735C34841E81260200810AE8 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SDPB4WRGP5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 735C34651E81260200810AE8;
+					};
+				};
+			};
+			buildConfigurationList = 735C34611E81260200810AE8 /* Build configuration list for PBXProject "cloud-ci-sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 735C345D1E81260200810AE8;
+			productRefGroup = 735C34671E81260200810AE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				735C34651E81260200810AE8 /* cloud-ci-sample */,
+				735C34791E81260200810AE8 /* cloud-ci-sampleTests */,
+				735C34841E81260200810AE8 /* cloud-ci-sampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		735C34641E81260200810AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735C34741E81260200810AE8 /* LaunchScreen.storyboard in Resources */,
+				735C34711E81260200810AE8 /* Assets.xcassets in Resources */,
+				735C346F1E81260200810AE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735C34781E81260200810AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735C34831E81260200810AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		735C34621E81260200810AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735C346C1E81260200810AE8 /* ViewController.swift in Sources */,
+				735C346A1E81260200810AE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735C34761E81260200810AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735C347F1E81260200810AE8 /* cloud_ci_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735C34811E81260200810AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735C348A1E81260200810AE8 /* cloud_ci_sampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		735C347C1E81260200810AE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 735C34651E81260200810AE8 /* cloud-ci-sample */;
+			targetProxy = 735C347B1E81260200810AE8 /* PBXContainerItemProxy */;
+		};
+		735C34871E81260200810AE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 735C34651E81260200810AE8 /* cloud-ci-sample */;
+			targetProxy = 735C34861E81260200810AE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		735C346D1E81260200810AE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				735C346E1E81260200810AE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		735C34721E81260200810AE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				735C34731E81260200810AE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		735C348C1E81260200810AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		735C348D1E81260200810AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		735C348F1E81260200810AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SDPB4WRGP5;
+				INFOPLIST_FILE = "cloud-ci-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delineneo.cloud-ci-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		735C34901E81260200810AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SDPB4WRGP5;
+				INFOPLIST_FILE = "cloud-ci-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delineneo.cloud-ci-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		735C34921E81260200810AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SDPB4WRGP5;
+				INFOPLIST_FILE = "cloud-ci-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delineneo.cloud-ci-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloud-ci-sample.app/cloud-ci-sample";
+			};
+			name = Debug;
+		};
+		735C34931E81260200810AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SDPB4WRGP5;
+				INFOPLIST_FILE = "cloud-ci-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delineneo.cloud-ci-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloud-ci-sample.app/cloud-ci-sample";
+			};
+			name = Release;
+		};
+		735C34951E81260200810AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SDPB4WRGP5;
+				INFOPLIST_FILE = "cloud-ci-sampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delineneo.cloud-ci-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "cloud-ci-sample";
+			};
+			name = Debug;
+		};
+		735C34961E81260200810AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SDPB4WRGP5;
+				INFOPLIST_FILE = "cloud-ci-sampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delineneo.cloud-ci-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "cloud-ci-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		735C34611E81260200810AE8 /* Build configuration list for PBXProject "cloud-ci-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735C348C1E81260200810AE8 /* Debug */,
+				735C348D1E81260200810AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		735C348E1E81260200810AE8 /* Build configuration list for PBXNativeTarget "cloud-ci-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735C348F1E81260200810AE8 /* Debug */,
+				735C34901E81260200810AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		735C34911E81260200810AE8 /* Build configuration list for PBXNativeTarget "cloud-ci-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735C34921E81260200810AE8 /* Debug */,
+				735C34931E81260200810AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		735C34941E81260200810AE8 /* Build configuration list for PBXNativeTarget "cloud-ci-sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735C34951E81260200810AE8 /* Debug */,
+				735C34961E81260200810AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 735C345E1E81260200810AE8 /* Project object */;
+}
