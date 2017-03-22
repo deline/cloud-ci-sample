@@ -24,13 +24,19 @@ class cloud_ci_sampleUITests: XCTestCase {
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testExampleUITest() {
+        let app = XCUIApplication()
+        let textField = app.otherElements.containing(.staticText, identifier:"Enter your name").children(matching: .textField).element
+        textField.tap()
+        textField.typeText("Bob")
+        app.buttons["Go!"].tap()
+        
+        let alertsQuery = app.alerts
+        alertsQuery.staticTexts["Hello Bob"].tap()
+        alertsQuery.buttons["Cancel"].tap()        
     }
     
 }
