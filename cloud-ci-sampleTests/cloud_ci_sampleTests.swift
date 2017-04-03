@@ -23,8 +23,8 @@ class cloud_ci_sampleTests: XCTestCase {
         XCTAssert(1 == 1)
     }
     
-    func testFailingTest() {
-        XCTAssert(1 == 2, "1 does not equal 2")
-    }
+//    func testFailingTest() {
+//        XCTAssert(1 == 2, "1 does not equal 2")
+//    }
     
 }
